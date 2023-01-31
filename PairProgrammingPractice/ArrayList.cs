@@ -23,6 +23,7 @@
 
 
 
+
       /*  public static void SettingDefaults()
         {
             int[] numbers = Array.Empty<int>();
@@ -47,5 +48,14 @@
             Console.WriteLine($"The count of all the positive numbers are {sum} ");
             return results;
         }
+
+
+        /*IEnumerable<int> Suare(IEnumerable<int> data)
+        {
+            var = results = data.Where(x => x > 0).ToList();
+            Console.WriteLine(string.Join(", ", results));
+            Console.WriteLine($"The Sum of all the Squared positive numbers is: {sum}");
+            return results;
+        }*/
     }
 }
